@@ -1,0 +1,20 @@
+[project]
+name = "allmebel3d-automatization"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dimash",email = "arystambekdimash005@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi (>=0.129.0,<0.130.0)",
+    "sqlalchemy (>=2.0.46,<3.0.0)",
+    "uvicorn (>=0.41.0,<0.42.0)",
+    "alembic (>=1.18.4,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
